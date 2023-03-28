@@ -7,6 +7,7 @@
 
 body {
 	font-family: "Lato", sans-serif;
+	background: #000;
 }
 
 img {
@@ -22,6 +23,10 @@ $md1: 1200px;
 $md2: 991.98px;
 $md3: 767.98px;
 $md4: 479.98px;
+
+.wrapper {
+	background: #fff;
+}
 
 .container {
 	margin: 0 auto;
