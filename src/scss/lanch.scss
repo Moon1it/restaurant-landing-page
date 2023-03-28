@@ -1,0 +1,50 @@
+.lunch {
+	position: relative;
+
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url(../images/pizza.png) 0 0 / cover no-repeat;
+	padding-top: 80px;
+	padding-bottom: 104px;
+	@media (max-width: $md3) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		@media (max-width: $md2) {
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+	&__content {
+		flex: 1 0 70%;
+	}
+
+	&__text {
+		color: #fff;
+		font-size: 24px;
+		font-family: "Open sans";
+		@media (max-width: $md2) {
+			text-align: center;
+			margin-bottom: 50px;
+		}
+	}
+	&__title {
+		text-align: left;
+		line-height: 60px;
+		color: #d67e34;
+		margin-bottom: 20px;
+		@media (max-width: $md2) {
+			font-size: 42px;
+			text-align: center;
+		}
+	}
+}
+
+.lunch-order {
+	flex: 1 0 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

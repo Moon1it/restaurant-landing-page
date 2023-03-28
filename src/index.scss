@@ -1,0 +1,255 @@
+@import "./libs/normalize.css";
+@import "./scss/nullstyle.scss";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Cookie:regular);
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+$grey-color: #656363;
+$minWidth: 320px;
+$maxWidth: 1110px;
+$md1: 1200px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+.container {
+	margin: 0 auto;
+	max-width: $maxWidth;
+
+	@media (max-width: $md1) {
+		max-width: 970px;
+	}
+	@media (max-width: $md2) {
+		max-width: 740px;
+		padding: 0 10px;
+	}
+
+	@media (max-width: $md3) {
+		max-width: 450px;
+	}
+
+	@media (max-width: $md4) {
+		max-width: none;
+	}
+}
+
+.lock {
+	overflow: hidden;
+}
+
+.link {
+	color: #fff;
+	font-size: 16px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3%;
+}
+
+.color {
+	&--brown {
+		color: #d67e34;
+	}
+}
+
+.title {
+	font-size: 52px;
+	font-family: "Tinos", sans-serif;
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+
+	background-color: #ff7400;
+
+	padding: 15px 20px;
+	height: 40px;
+
+	&__link {
+		font-family: "Open sans", sans-serif;
+		font-weight: bold;
+		color: #fff;
+		font-size: 14px;
+	}
+
+	&:hover {
+		background-color: #d36810;
+		transition: background 0.3s ease;
+	}
+}
+
+.home {
+	background-image: url(./images/bg12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 800px;
+	padding-top: 50px;
+
+	&__body {
+		position: relative;
+	}
+
+	&__title {
+		position: absolute;
+		left: 15%;
+		top: 200px;
+		transform: translate(-15%, 0);
+	}
+
+	&__logo {
+	}
+}
+
+.restaurant-title {
+	color: #d67e35;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	&__name {
+		font-size: 80px;
+		margin-top: -10px;
+		@media (max-width: $md3) {
+			font-size: 40px;
+		}
+	}
+
+	&__home {
+		font-size: 50px;
+		@media (max-width: $md3) {
+			font-size: 30px;
+		}
+	}
+
+	@media (max-width: $md1) {
+		left: 25%;
+		transform: translate(-25%, 0);
+	}
+	@media (max-width: $md2) {
+		width: 100%;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+}
+
+.restaurant-slogan {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 9px;
+	margin-bottom: 21px;
+
+	&__decor {
+		width: 61px;
+		height: 2px;
+		background: #fff;
+		@media (max-width: $md3) {
+			display: none;
+		}
+	}
+
+	&__text {
+		font-family: "Open sans", sans-serif;
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+.advantages {
+	margin-top: -80px;
+
+	&__list {
+	}
+
+	&__item {
+		flex: 1 0 33%;
+		padding: 50px 25px;
+		aspect-ratio: 1/1;
+	}
+
+	@media (max-width: $md2) {
+		&__list {
+			flex-direction: column;
+			gap: 15px;
+		}
+		&__item {
+			width: 50%;
+			padding: 50px;
+		}
+	}
+
+	@media (max-width: $md3) {
+		&__list {
+			flex-direction: column;
+			gap: 15px;
+		}
+		&__item {
+			width: 75%;
+			padding: 50px;
+		}
+	}
+}
+
+.advantages-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+	font-weight: 400;
+	&__icon {
+		margin-bottom: 20px;
+	}
+
+	img {
+	}
+
+	&__text {
+		color: $grey-color;
+		font-size: 22px;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font-size: 26px;
+	}
+}
+
+@import "./scss/header.scss";
+@import "./scss/story.scss";
+@import "./scss/lanch.scss";
+@import "./scss/dishes.scss";
+@import "./scss/food.scss";
+@import "./scss/feedback.scss";
+@import "./scss/gallery.scss";
+@import "./scss/cooks.scss";
+
+.street {
+	img {
+	}
+}

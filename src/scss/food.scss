@@ -1,0 +1,85 @@
+.food {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url(../images/food-bg.jpg) 0 0 / cover no-repeat;
+	position: relative;
+	padding-top: 90px;
+	padding-bottom: 160px;
+	@media (max-width: $md2) {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	&__body {
+	}
+	&__item {
+		padding: 25px 35px;
+		@media (max-width: $md2) {
+			&:nth-child(2n + 1) {
+				display: none;
+			}
+		}
+	}
+	&__list {
+	}
+	&__title {
+		color: #fff;
+		margin-bottom: 100px;
+		@media (max-width: $md2) {
+			margin-bottom: 80px;
+		}
+	}
+}
+.food-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	background: #fff;
+	&__button {
+		width: 100%;
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	}
+	&__image {
+		width: 225px;
+		height: 225px;
+		border-radius: 50%;
+		position: relative;
+		img {
+			border-radius: 50%;
+		}
+	}
+	&__price {
+		background: #ff7400;
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+
+		font-family: "Cookie";
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 33px;
+
+		position: absolute;
+		border: 7px solid #fff;
+		z-index: 1;
+		right: 0;
+		bottom: 0;
+	}
+	&__text {
+		font-family: "Open Sans";
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+	}
+	&__title {
+		font-family: "Tinos";
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 30px;
+	}
+}

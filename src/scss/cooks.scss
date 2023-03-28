@@ -1,0 +1,21 @@
+.cooks {
+	padding-bottom: 100px;
+	&__image {
+		flex: 1 0;
+		img {
+		}
+	}
+	&__body {
+	}
+	&__list {
+		align-items: normal;
+		@media (max-width: $md2) {
+			flex-direction: column;
+			justify-content: center;
+			gap: 30px;
+		}
+	}
+	&__title {
+		margin-bottom: 100px;
+	}
+}
