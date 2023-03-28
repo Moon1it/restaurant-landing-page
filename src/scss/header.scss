@@ -14,11 +14,11 @@
 	}
 	&__logo {
 		z-index: 3;
-		height: 74px;
-		width: 74px;
-		border-radius: 50%;
+		height: 50px;
+		width: 50px;
 	}
 	&__img {
+		border-radius: 50%;
 	}
 	&__menu {
 		display: flex;
@@ -90,13 +90,13 @@
 		@media (max-width: $md2) {
 			flex-direction: column;
 			position: fixed;
-			top: -750px;
+			top: -950px;
 			left: 0;
 			width: 100%;
 			height: 100%;
 			background-color: rgba(0, 0, 0, 0.9);
 			padding: 80px 30px 30px 30px;
-			transition: all 1s ease-out;
+			transition: all 0.5s ease-out;
 		}
 	}
 	&--active {
