@@ -1,0 +1,355 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Cookie:regular);
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,h5,h6,p,blockquote,figure,dl,dd{margin:0}body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5}ul,ol{list-style:none}a:not([class]){-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}a{-webkit-text-decoration:none;text-decoration:none}body{font-family:"Lato",sans-serif;background:#000}img{-o-object-fit:cover;object-fit:cover;width:100%;height:100%}.wrapper{background:#fff}.container{margin:0 auto;max-width:1110px}.lock{overflow:hidden}.link{color:#fff;font-size:16px}.list{display:flex;justify-content:center;align-items:center;gap:3%}.color--brown{color:#d67e34}.title{font-size:52px;font-family:"Tinos",sans-serif;text-align:center}.button{display:flex;justify-content:center;align-items:center;width:100%;background-color:#ff7400;padding:15px 20px;height:40px;font-family:"Open sans",sans-serif;font-weight:bold;color:#fff;font-size:14px}.button:hover{background-color:#d36810;transition:background .3s ease}.home{background-image:url(3c6604e73438ba7da24c.png);background-repeat:no-repeat;background-size:cover;min-height:800px;padding-top:50px}.home__body{position:relative}.home__title{position:absolute;left:15%;top:200px;transform:translate(-15%, 0)}.restaurant-title{color:#d67e35;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;text-transform:uppercase}.restaurant-title__name{font-size:80px;margin-top:-10px}.restaurant-title__home{font-size:50px}.restaurant-slogan{display:flex;justify-content:center;align-items:center;gap:9px;margin-bottom:21px}.restaurant-slogan__decor{width:61px;height:2px;background:#fff}.restaurant-slogan__text{font-family:"Open sans",sans-serif;color:#fff;font-size:18px;text-align:center}.advantages{margin-top:-80px}.advantages__item{flex:1 0 33%;padding:50px 25px;aspect-ratio:1/1}.advantages-item{display:flex;flex-direction:column;align-items:center;text-align:center;background:#fff;box-shadow:0px 0px 25px rgba(0,0,0,.2);font-weight:400}.advantages-item__icon{margin-bottom:20px}.advantages-item__text{color:#656363;font-size:22px}.advantages-item__title{margin-bottom:20px;font-size:26px}.header{z-index:3;background:#000;top:0;left:0;width:100%;position:fixed}.header__body{display:fLex;align-items:center;justify-content:space-between}.header__logo{z-index:3;height:50px;width:50px}.header__img{border-radius:50%}.header__menu{display:flex;align-items:center;justify-content:space-between;padding:10px 0}.menu-icon{display:none}.menu{display:flex;flex-direction:column}.menu__body{display:flex;align-items:center}.menu__contact{margin-right:50px}.menu__list{display:flex;gap:30px;margin-right:50px}.menu__link{font-weight:bold}.menu__link:hover{color:#ff7400;transition:color .3s ease-out}.contact{display:flex;flex-direction:column;justify-content:center}.contact__body{display:flex}.contact__description{line-height:16px}.contact__image{padding-right:8px;display:flex;justify-content:center;align-items:center}.contact__img{width:20px;height:20px}.contact__number-link{font-size:18px;font-weight:bold}.contact__number-link:hover{color:#ff7400;transition:color .3s ease-out}.story{padding-top:150px;padding-bottom:182px}.story__body{display:flex;justify-content:space-evenly;gap:3%}.story__content{flex:1 0 50%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:40px}.story__list{width:100%;font-family:"Open sans",sans-serif;font-weight:300}.story__text{font-size:20px;font-family:"Open sans",sans-serif;text-align:justify;color:#656363}.story__image{flex:1 0 47%;display:flex;justify-content:center;align-items:center}.story-item{flex:0 0 25%;text-align:center}.story-item__number{font-size:40px;color:#d67e34}.story-item__text{font-size:20px}.lunch{position:relative;background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url(1b51ea3edfaa9244463b.png) 0 0/cover no-repeat;padding-top:80px;padding-bottom:80px}.lunch__body{display:flex;justify-content:space-between}.lunch__content{flex:1 0 70%}.lunch__text{color:#fff;font-size:24px;font-family:"Open sans"}.lunch__title{text-align:left;line-height:54px;color:#d67e34;margin-bottom:20px}.lunch-order{flex:1 0 30%;display:flex;justify-content:center;align-items:center}.dishes{padding-top:130px;padding-bottom:150px}.dishes__body{display:flex;justify-content:center;gap:3%}.dishes__image{flex:1 0 42%}.dishes__image>img{aspect-ratio:1/1}.dishes__list{flex:1 0 55%;display:flex;gap:30px;flex-direction:column}.dishes__title{margin-bottom:100px}.dishes-item{display:flex;gap:30px}.dishes-item__image{flex:1 0 20%}.dishes-item__image>img{aspect-ratio:1/1}.dishes-price{flex:1 0 70%;display:flex;align-items:center}.dishes-price__cash{flex:1 0;font-size:22px}.dishes-price__dashed{flex:1 0 30%;border-bottom:3px dotted #000;margin-right:10px}.dishes-price__name{flex:1 0 60%;font-size:26px;font-family:"Tinos"}.food{background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(57a586737c39e99918b1.jpg) 0 0/cover no-repeat;position:relative;padding-top:90px;padding-bottom:160px}.food__item{padding:25px 35px}.food__title{color:#fff;margin-bottom:100px}.food-item{flex:0 0 31%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px;background:#fff}.food-item__button{width:100%;box-shadow:5px 5px 10px rgba(0,0,0,.25)}.food-item__image{width:225px;height:225px;border-radius:50%;position:relative}.food-item__image img{border-radius:50%}.food-item__price{background:#ff7400;border-radius:50%;width:100px;height:100px;display:flex;justify-content:center;align-items:center;color:#fff;font-family:"Cookie";font-weight:400;font-size:30px;line-height:33px;position:absolute;border:7px solid #fff;z-index:1;right:0;bottom:0}.food-item__text{font-family:"Open Sans";font-weight:400;font-size:16px;line-height:22px;text-align:center}.food-item__title{font-family:"Tinos";font-weight:400;font-size:26px;line-height:30px}.feedback{background:#e6e5e5;padding-top:100px;padding-bottom:100px;font-family:"Open Sans"}.feedback__body{display:flex;flex-direction:column;justify-content:center;align-items:center}.feedback__image{width:100px;height:100px;margin-bottom:25px}.feedback__image img{border-radius:50%;aspect-ratio:1/1}.feedback__name{font-weight:400;font-size:20px;line-height:27px;margin-bottom:35px}.feedback__role{font-weight:600;font-size:20px;line-height:27px;margin-bottom:15px}.feedback__text{font-style:italic;font-weight:400;font-size:20px;line-height:27px;text-align:center;margin-bottom:40px}.feedback-dots{display:flex;gap:10px}.feedback-dots__item{width:10px;height:10px;border-radius:50%;background:#c4c4c4}.gallery{padding-top:100px;padding-bottom:100px}.gallery__item--1-3{grid-column:1/3}.gallery__item--3-5{grid-column:3/5}.gallery__list{display:grid;grid-template-columns:repeat(4, 1fr);grid-auto-rows:255px;grid-gap:30px;gap:30px;margin-bottom:30px}.gallery__title{margin-bottom:100px}.cooks{padding-bottom:100px}.cooks__image{flex:1 0}.cooks__list{align-items:normal}.cooks__title{margin-bottom:100px}@media (max-width: 1200px){.container{max-width:970px}.restaurant-title{left:25%;transform:translate(-25%, 0)}.menu-icon span,.menu-icon::before,.menu-icon::after{left:0;position:absolute;height:10%;width:100%;transition:all .3s ease 0s;background-color:#fff}.menu-icon::before{top:0}.menu-icon::after{bottom:0}.menu-icon span{top:50%;transform:scale(1) translate(0, -50%)}.menu-icon::before,.menu-icon::after{content:""}.menu-icon.menu--active span{transform:scale(0) translate(0, -50%)}.menu-icon.menu--active::before{top:50%;transform:rotate(-45deg) translate(0, -50%)}.menu-icon.menu--active::after{bottom:50%;transform:rotate(45deg) translate(0, 50%)}.gallery__list{grid-auto-rows:220px}}@media (max-width: 991.98px){.container{max-width:740px;padding:0 25px}.restaurant-title{width:100%;left:50%;transform:translate(-50%, 0)}.advantages__list{flex-direction:column;gap:15px}.advantages__item{width:50%;padding:50px}.menu-icon{display:block;z-index:2;position:relative;width:38px;height:28px;cursor:pointer}.menu__body{flex-direction:column;position:fixed;top:-950px;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.9);padding:80px 30px 30px 30px;transition:all .5s ease-out}.menu--active{top:0px}.menu__contact{align-items:center;margin-bottom:20px;margin-right:0}.menu__list{flex-direction:column;align-items:center;margin:0;margin-bottom:60px}.story{padding-top:75px;padding-bottom:75px}.story__body{flex-direction:column;align-items:center}.story__content{width:-moz-fit-content;width:fit-content}.story__list{margin-bottom:45px}.lunch__body{flex-direction:column;justify-content:center}.lunch__text{margin-bottom:20px;text-align:center;font-size:18px}.lunch__title{font-size:32px;text-align:center;margin-bottom:5px}.food{padding-top:80px;padding-bottom:80px}.food__item:nth-child(2n+1){display:none}.food__title{margin-bottom:40px}.feedback{padding-top:70px;padding-bottom:70px}.gallery{padding-top:70px;padding-bottom:70px}.gallery__list{display:flex;flex-direction:column}.cooks__list{flex-direction:column;justify-content:center;gap:30px}}@media (max-width: 767.98px){.container{max-width:450px}.restaurant-title__name{font-size:40px}.restaurant-title__home{font-size:30px}.restaurant-slogan__decor{display:none}.advantages__list{flex-direction:column;gap:15px}.advantages__item{width:75%;padding:50px}.story__list{flex-direction:column}.lunch__text{text-align:center;margin-bottom:20px;font-size:16px}.lunch__title{font-size:32px;text-align:center;line-height:42px}.dishes{padding-top:60px;padding-bottom:120px}.dishes__body{flex-direction:column;justify-content:center}.dishes__image{margin-bottom:50px}.dishes__title{margin-bottom:60px}.dishes-item{gap:15px}.dishes-price__name{flex:1 1 60%;font-size:18px}}@media (max-width: 479.98px){.container{max-width:none}}
