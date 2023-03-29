@@ -81,19 +81,17 @@ $md4: 479.98px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: fit-content;
+	width: 100%;
 
 	background-color: #ff7400;
 
 	padding: 15px 20px;
 	height: 40px;
 
-	&__link {
-		font-family: "Open sans", sans-serif;
-		font-weight: bold;
-		color: #fff;
-		font-size: 14px;
-	}
+	font-family: "Open sans", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 14px;
 
 	&:hover {
 		background-color: #d36810;
@@ -133,6 +131,9 @@ $md4: 479.98px;
 
 	text-align: center;
 	text-transform: uppercase;
+
+	&__button {
+	}
 
 	&__name {
 		font-size: 80px;

@@ -1,7 +1,8 @@
 .feedback {
 	background: #e6e5e5;
-	padding-top: 104px;
-	padding-bottom: 108px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: "Open Sans";
 	@media (max-width: $md2) {
 		padding-top: 70px;
 		padding-bottom: 70px;
@@ -24,28 +25,24 @@
 		}
 	}
 	&__name {
-		font-family: "Open Sans";
-		font-style: normal;
 		font-weight: 400;
 		font-size: 20px;
 		line-height: 27px;
 		margin-bottom: 35px;
 	}
 	&__role {
-		font-family: "Open Sans";
 		font-weight: 600;
 		font-size: 20px;
 		line-height: 27px;
 		margin-bottom: 15px;
 	}
 	&__text {
-		font-family: "Open Sans";
 		font-style: italic;
 		font-weight: 400;
 		font-size: 20px;
 		line-height: 27px;
 		text-align: center;
-		margin-bottom: 25px;
+		margin-bottom: 40px;
 	}
 }
 
